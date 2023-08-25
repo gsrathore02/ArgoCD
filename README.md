@@ -1,9 +1,8 @@
-**# ArgoCD**
 ArgoCD is an open-source declarative, GitOps continuous delivery tool for Kubernetes. It allows you to maintain, manage, and deploy applications on Kubernetes clusters using Git repositories as the source of truth for configuration. ArgoCD simplifies the process of deploying applications by abstracting away the complexities of manually interacting with Kubernetes APIs and configuration files.
 
 Here's how ArgoCD works and what it offers:
 
-Declarative Configuration: With ArgoCD, you define the desired state of your applications using YAML manifests. These manifests describe the resources you want to deploy, their configuration, and relationships.
+Declarative Configuration: With ArgoCD, you define the desired state of your applications using YAML manifests. These manifests describe the resources you want to deploy, their configuration, and their relationships.
 
 GitOps Workflow: ArgoCD follows the GitOps workflow, which means that your application definitions and configuration are stored in Git repositories. The Git repository becomes the single source of truth for how your applications should be deployed and maintained.
 
